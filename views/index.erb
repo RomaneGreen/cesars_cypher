@@ -1,0 +1,34 @@
+<html>
+<head>
+    <style>
+      body {
+        background: black;
+        text-align: center;
+        margin-top: 10rem;
+      }
+      p,h1 {
+        color: gold;
+      }
+    </style>
+  </head>
+<body>
+<h1>
+ Welcome to Cesars Cypher!
+
+</h1>
+<p>
+
+Enter the message you would like to encrypt...
+</p>
+  <form action="/output">
+      <input type="text" name="sentence"pattern=[a-zA-Z]+ title="Alphabetic charachters only" required>
+      <p> Enter a numeric value for letter encryption</p>
+        <input type="text" name="number" pattern=[-+]?[0-9]*[.,]?[0-9]+ title="Numeric values only" required>
+      <input type="submit" value='Encrypt!'>
+
+    </form>
+
+
+
+  </body>
+  </html>
