@@ -49,37 +49,3 @@ end
 
 
 
-# def check_input()
-
-
-
-# puts "Welcome to Cesars Cypher!"
-# puts "Enter the string you would like to decode"
-#
-# input = gets.chomp.to_s
-#
-# puts "Enter how many spaces you would like to shift the element"
-#
-# places_shifted = gets.chomp.to_i
-#
-#
-# dd = input.downcase.split("").map do |strin|
-#
-#     kk = strin.ord+places_shifted
-#     if strin.ord <  97 && strin.ord > 26
-#         strin = strin
-#        elsif strin.ord+places_shifted > 122
-#        strin = strin.ord+places_shifted - 123 + 97
-#        strin.chr
-# else
-#   jj = kk.chr
-#  jj
-#     end
-#   end
-#   puts dd.join.capitalize
-# return  dd.join.capitalize
-# end
-#
-# check_input()
-#end
-#end
